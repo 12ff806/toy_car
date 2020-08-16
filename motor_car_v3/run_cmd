@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#cd motor_control
+#echo `pwd`
+. ./venv/bin/activate
+gunicorn motor_api:app -c gunicorn_config.py >> logs/extra.log 2>&1 &

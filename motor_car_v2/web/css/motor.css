@@ -1,0 +1,91 @@
+/* global */
+/**{*/
+    /*margin: 0px;*/
+    /*padding: 0px;*/
+/*}*/
+/*body{*/
+    /*background-color: black;*/
+/*}*/
+
+html,body{-webkit-tap-highlight-color:rgba(0,0,0,0);height:100%;outline: none;-webkit-text-size-adjust:none;font-size:100%;width:100%;font-size:12px;-webkit-appearance: none;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,p,table,th,td,form,fieldset,legend,textarea,input,select,textarea,button,figure,figcaption{margin:0;padding:0;font-family:'SamsungIFRg',sans-serif;color:#3e3e3e}
+fieldset,li,img{border:0;vertical-align:top}
+ul,ol{list-style:none}
+button{overflow:visible;border:0;background-color:transparent;cursor:pointer}
+button::-moz-focus-inner{padding:0;}
+input,button{-webkit-appearance:none;-moz-appearance:none;appearance:none;outline: none;}
+address,caption,em{font-style:normal}
+a,a:focus,a:active,a:hover{color:#5f5f5f;text-decoration:none}
+hr{display:none}
+@charset "utf-8";
+#panel-box{
+    border-radius: 3px;
+    color: white;
+    background-color: white;
+    width: 100%;
+    /*margin: 8% auto auto auto;*/
+    padding: 20px 0;
+}
+
+.btn-box{
+    width: 100%;
+    background-color: white;
+    margin: 2px auto;
+    text-align: center;
+    
+}
+
+button{
+    border: none;
+    border-radius: 3px;
+    height: 40px;
+    background-color: black;
+    color: #FFFFFF;
+    font-size: 15px;
+    padding: 0.2rem 0.3rem;
+    margin: 0.15rem 0.05rem;
+    opacity: 1;
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#btn-p{
+    margin: 0px 40px;
+}
+form{
+    border: none;
+    border-radius: 3px;
+    height: 24px;
+    background-color: black;
+    color: #FFFFFF;
+    font-size: 15px;
+    margin: 10px 0px;
+    opacity: 1;
+    display: inline-block;
+}
+#bt{
+    border: none;
+    padding: 8px 20px;
+    height: 40px;
+    background-color: black;
+    color: #FFFFFF;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+#audioGo{
+    position:relative;
+}
+#audioGo span{
+    position:absolute;
+    width:8px;
+    height:8px;
+    background-color:#09ee29;
+    border-radius:50%;
+    top:4px;
+    left:4px;
+    display:none;
+}

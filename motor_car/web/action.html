@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Motor Car Control Panel</title>
+    <link rel="stylesheet" type="text/css" href="css/motor.css">
+    <script src="js/motor.js" type="text/javascript"></script>
+    <!--
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js"></script>
+    -->
+</head>
+<body>
+    <div id="panel-box">
+        <div class="btn-box">
+            <button id="btn-f">前进</button>
+        </div>
+        <div class="btn-box">
+            <button id="btn-l">左转</button>
+            <button id="btn-p">暂停</button>
+            <button id="btn-r">右转</button>
+        </div>
+        <div class="btn-box">
+            <button id="btn-b">后退</button>
+        </div>
+        <div class="btn-box">
+            <button id="btn-auto">自动模式</button>
+        </div>
+    </div>
+</body>
+<!--
+<script>
+$(function(){
+    $("#btn-f").click(function(){
+        $.ajax({
+            type: "POST",
+            url: "http://192.168.96.168:5566/api/action",
+            data: {"command": "N"},
+            headers:{
+            "Content-Type": "application/json"
+            },
+        })
+    })
+})
+</script>
+-->
+</html>
